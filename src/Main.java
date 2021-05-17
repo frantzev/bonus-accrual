@@ -3,6 +3,7 @@ public class Main {
         long balance = 100;
         long replenishment = 1789;
         long bonus = 0;
+         if (replenishment > 1000)
         bonus = replenishment / 100;
 
         long newBalance = balance + bonus + replenishment;
